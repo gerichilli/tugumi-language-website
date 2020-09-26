@@ -1,0 +1,169 @@
+
+/*big tablet: from 1024px to 1200px*/
+@media only screen and (max-width: 1200px) {
+  .headline-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {padding: 0 2%;}
+
+  .teacher-feature {font-size: 16px;}
+
+  blockquote {font-size: 18px;}
+
+  .plan-box ul li {font-size: 14px;}
+}
+
+
+/*Ipad, tablet: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+  body {font-size: 15px;}
+  section {padding: 60px 0;}
+  .section-describe {
+    line-height: 120%;
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .app-feature {
+    margin-bottom: 15px;
+    height: 60px;
+  }
+
+  .app-feature:last-of-type {margin-bottom: 15px;}
+
+  .app-feature div {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    font-size: 110%;
+    margin-right: 20px;
+  }
+
+  .app-box:last-child {margin-top: 25px;}
+
+  .btn-app img {height: 30px;}
+
+  .teacher-feature {
+    margin-top: 10px;
+    font-size: 95%;
+  }
+
+  .icon-small {margin-right: 5px;}
+
+}
+
+
+/*small phone, small tablet: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+  body {font-size: 16px;}
+  section {padding: 30px 0;}
+
+  .row,
+  .headline-box  {padding: 0 4%;}
+
+  .col {
+    width: 100%;
+    margin: 0 0 1% 0;
+  }
+
+  .main-nav {display: none;}
+
+  .main-nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10%;
+  }
+
+  .main-nav li {
+    display: block;
+    font-size: 90%;}
+
+  .mobile-nav-icon {display: inline-block;}
+
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border: 0;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;}
+
+  .sticky .mobile-nav-icon {margin-top: 6px;}
+
+  .sticky .mobile-nav-icon ion-icon {color: #000;}
+
+  h2 {
+    font-size: 110%;
+  }
+
+  blockquote {
+    line-height: 130%;
+    font-size: 90%;
+    margin-bottom: 5px;
+  }
+
+  .app-feature {
+    font-size: 90%;
+    margin-bottom: 5px;
+  }
+
+  .app-feature p {
+    top: 2px;
+  }
+
+  .app-box:first-child {
+    text-align: center;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+    margin-top: 20px;
+  }
+
+  .plan-box ul li {
+    padding: 5px;
+  }
+
+}
+
+/*Small phone: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+  body {font-size: 14px;}
+  section {padding: 25px 0;}
+  .col {width: 100%;}
+
+  h1 {font-size: 150%}
+
+  .logo,
+  .logo-black {
+    height: 80px;
+    margin-top: 5px;
+  }
+
+  .logo-black {
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .main-nav li {
+    font-size: 70%;}
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .app-feature {
+    margin-bottom: 30px;
+  }
+
+  .app-feature p {
+    top: -3%;
+  }
+}
